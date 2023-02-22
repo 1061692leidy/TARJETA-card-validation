@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>hola</header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title> Valid Credit Card </title>
+</head>
+
+<body>
+
+  <div class="texto">
+    <h2 class="title">Credit Card Validator</h2>
+    <img src="Card.png" alt="">
+
+
+
+    <form>
+
+      <input type="number" id="tarjeta" placeholder="Ingrese Tarjeta" name="tarjeta" required pattern="[0,9]+">
+        
+      <input type="button" value="Validar Tarjeta" id="Boton">
+
+    </form>
+
+
+    <h1 id="demo"></h1>
+
+    <script src="index.js" type="module"> </script>
+
+    <p class="titulo" id="result"></p>
+  
+
+  </div>
+
+
+</body>
+
 </html>

@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(0, 102, 255, 0.568);
+  }
+  label {
+    display: block;
+    width: 200px;
+  }
+  .title{
+    color:greenyellow
+  }
+  .title{
+    text-align: center; border:1px; font-size:40px;
+
+  }
+
+  .titulo{
+    color:orangered
+  }

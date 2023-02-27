@@ -1,5 +1,5 @@
 const validator = {
-  isValid(cardNumber) {
+  isValid: function(cardNumber) {
     {
       const reversed = cardNumber.toString().split("").reverse(); //"split('')" divide la cadena en un array de caracteres
       let total = 0; // "cardNumber.toString()" convierte un número en una cadena de caracteres "reverse()" invierte el orden de los elementos en el array
@@ -24,7 +24,7 @@ const validator = {
     }
   },
 
-  maskify(cardNumber) {
+  maskify: function(cardNumber) {
     //Ocultar todos los dígitos excepto los últimos 4
     let maskedNumber = ""; //"= ''" asigna una cadena vacía a la variable "maskedNumber"
     const lastFourDigits = cardNumber.slice(-4); //  el método "slice()" para extraer una porción del valor de "cardNumber". El argumento "-4" significa que se está tomando los últimos 4 caracteres de "cardNumber"

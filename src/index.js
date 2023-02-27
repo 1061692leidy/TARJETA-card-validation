@@ -1,6 +1,6 @@
 import validator from './validator.js';
 
-function validate() {//funcion
+function validate() {
   //console.log(validator);
   const cardNumber = document.getElementById('tarjeta').value;
   if(cardNumber===''){
